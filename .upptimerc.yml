@@ -8,7 +8,9 @@ sites:
       email:
         service: sendgrid
         from: ${{ secrets.NOTIFICATION_EMAIL }}
-        to: mimi.weary@wearemci.com
+        to:
+          - mimi.weary@wearemci.com
+          - ashley.dowling@wearemci.com
         sendgrid_api_key: ${{ secrets.SENDGRID_API_KEY }}
 
 status-website:
