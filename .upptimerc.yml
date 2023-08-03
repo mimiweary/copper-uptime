@@ -12,6 +12,9 @@ sites:
           - mimi.weary@wearemci.com
           - ashley.dowling@wearemci.com
         sendgrid_api_key: ${{ secrets.SENDGRID_API_KEY }}
+      teams:
+        enabled: true
+        webhook_url: ${{ secrets.NOTIFICATION_TEAMS_WEBHOOK_URL }}
 
 status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
