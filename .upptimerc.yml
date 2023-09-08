@@ -3,7 +3,7 @@ repo: copper-uptime
 
 sites:
   - name: CDA
-    url: https://copper.org/
+    url: https://copper.org/homepage.php
     notifications:
       email:
         service: sendgrid
